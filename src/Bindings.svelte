@@ -1,6 +1,7 @@
 <script>
     import BindingsComments from './BindingsComments.svelte';
-    import BindingsEventForm from './BindingsEventForm.svelte';
+    import BindingsFormEvent from './BindingsFormEvent.svelte';
+
     
     let comments = [
         {username: "tulio", age: 15, city: "Punta Arenas", content: "cool city" },
@@ -14,5 +15,5 @@
     
 </script>
 
-<BindingsEventForm on:addComment={addComment}/>
+<BindingsFormEvent on:addComment={addComment}/>
 <BindingsComments {comments}/>
