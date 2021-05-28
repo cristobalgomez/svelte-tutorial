@@ -4,7 +4,9 @@
 // import Props from './Props.svelte';
 // import Logic from './Logic.svelte';
 // import Events from './Events.svelte';
-import Bindings from './Bindings.svelte';
+// import Bindings from './Bindings.svelte';
+import Lifecycle from './Lifecycle.svelte';
+
 
 
 // const app = new App({
@@ -43,7 +45,12 @@ import Bindings from './Bindings.svelte';
 // 	target: document.body
 // });
 
-const bindings = new Bindings({
+// const bindings = new Bindings({
+// 	target: document.body
+// });
+// export default bindings;
+
+const lifecycle = new Lifecycle({
 	target: document.body
 });
-export default bindings;
+export default lifecycle;

@@ -12,8 +12,8 @@
 <style>
 	div {
         margin: 1em;
-		padding: 0.5em;
-		border: 1px solid #eee;
-		border-radius: 4px;
+        padding: 0.5em;
+        border: 1px solid #eee;
+        border-radius: 4px;
 	}
 </style>
