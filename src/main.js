@@ -5,7 +5,8 @@
 // import Logic from './Logic.svelte';
 // import Events from './Events.svelte';
 // import Bindings from './Bindings.svelte';
-import Lifecycle from './Lifecycle.svelte';
+// import Lifecycle from './Lifecycle.svelte';
+import Stores from './Stores.svelte';
 
 
 
@@ -50,7 +51,12 @@ import Lifecycle from './Lifecycle.svelte';
 // });
 // export default bindings;
 
-const lifecycle = new Lifecycle({
+// const lifecycle = new Lifecycle({
+// 	target: document.body
+// });
+// export default lifecycle;
+
+const store = new Stores({
 	target: document.body
 });
-export default lifecycle;
+export default store;
