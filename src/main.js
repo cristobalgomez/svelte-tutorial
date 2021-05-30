@@ -6,7 +6,8 @@
 // import Events from './Events.svelte';
 // import Bindings from './Bindings.svelte';
 // import Lifecycle from './Lifecycle.svelte';
-import Stores from './Stores.svelte';
+// import Stores from './Stores.svelte';
+import ComponentsComposition from './ComponentsComposition.svelte'
 
 
 
@@ -56,7 +57,12 @@ import Stores from './Stores.svelte';
 // });
 // export default lifecycle;
 
-const store = new Stores({
+// const store = new Stores({
+// 	target: document.body
+// });
+// export default store;
+
+const componentsComposition = new ComponentsComposition({
 	target: document.body
 });
-export default store;
+export default componentsComposition;
